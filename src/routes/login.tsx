@@ -27,8 +27,8 @@ function LoginPage() {
   return (
     <div className="relative min-h-screen overflow-hidden">
       {/* The landing page stays visible behind the sign-in dialog */}
-      <main className="landing-page pointer-events-none min-h-screen bg-background" aria-hidden>
-        <div className="hero-pastel">
+      <main className="landing-page pointer-events-none min-h-screen" aria-hidden>
+        <div className="hero-pastel min-h-screen">
           <SiteHeader />
           <Hero />
         </div>
