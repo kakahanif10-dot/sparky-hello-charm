@@ -218,6 +218,8 @@
   --border: oklch(0.88 0.018 275);
   --input: oklch(0.88 0.018 275);
   --ring: var(--brand-mid);
+  --primary: var(--brand-mid);
+  --primary-foreground: oklch(0.99 0 0);
 }
 
 .login-gradient {
