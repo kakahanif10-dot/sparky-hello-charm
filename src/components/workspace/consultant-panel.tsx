@@ -79,16 +79,7 @@ export function ConsultantPanel({
 
   return (
     <div className="flex h-full flex-col bg-background">
-      <div className="flex h-11 shrink-0 items-center justify-between bg-background px-3">
-        <div className="flex items-center gap-2">
-          <SuperintelligensMark className="h-6 w-6 shrink-0" />
-          <span className="text-[15px] tracking-wide text-foreground">
-            <strong className="font-extrabold">SUPER</strong>
-            <span className="font-medium">INTELLIGENS</span>
-          </span>
-        </div>
-
-
+      <div className="flex h-11 shrink-0 items-center justify-end bg-background px-3">
         <Button
           variant="ghost"
           size="icon-sm"
