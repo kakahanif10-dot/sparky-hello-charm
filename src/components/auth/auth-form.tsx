@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { useRouter } from '@/lib/next-router'
 import { Loader2 } from 'lucide-react'
-import darkLogo from '@/assets/superintelligens-icon.png'
 import Link from '@/components/link'
 
 export function AuthForm() {
@@ -32,9 +31,7 @@ export function AuthForm() {
         </svg>
       </Link>
 
-      <img src={darkLogo} alt="SUPERINTELLIGENS" className="h-9 w-9 object-contain invert" />
-
-      <p className="mt-7 text-xl font-medium text-muted-foreground">Start building.</p>
+      <p className="text-xl font-medium text-muted-foreground">Start building.</p>
       <h1 className="mt-1 text-xl font-semibold tracking-tight text-foreground">
         Log in to your account
       </h1>
@@ -63,7 +60,7 @@ export function AuthForm() {
         <button
           type="submit"
           disabled={status !== 'idle'}
-          className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-md bg-primary text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90 disabled:opacity-70"
+          className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-md border border-border bg-card text-sm font-semibold text-foreground transition-colors hover:bg-muted disabled:opacity-70"
         >
           {status === 'loading' && <Loader2 className="h-4 w-4 animate-spin" />}
           Continue
