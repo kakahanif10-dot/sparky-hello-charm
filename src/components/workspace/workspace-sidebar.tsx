@@ -22,6 +22,7 @@ import {
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import type { DesignSpec, Template } from '@/lib/design'
+import { SuperintelligensMark } from '@/components/superintelligens-logo'
 import { Button } from '@/components/ui/button'
 
 export type Session = {
@@ -124,18 +125,12 @@ export function WorkspaceSidebar({
       {/* Brand + collapse */}
       <div className="flex h-14 items-center justify-between px-3">
         <div className="flex items-center gap-2 overflow-hidden">
-          <AnimatePresence>
-            {!collapsed && (
-              <motion.span
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                className="whitespace-nowrap text-sm font-semibold tracking-tight"
-              >
-                SUPERINTELLIGENS
-              </motion.span>
-            )}
-          </AnimatePresence>
+          <SuperintelligensMark className="h-7 w-7 shrink-0" />
+          {!collapsed && (
+            <span className="whitespace-nowrap text-sm font-semibold tracking-tight">
+              SUPERINTELLIGENS
+            </span>
+          )}
         </div>
         <button
           onClick={onToggle}
