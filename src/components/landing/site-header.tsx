@@ -58,7 +58,7 @@ export function SiteHeader() {
             render={<Link href="/login" />}
             nativeButton={false}
             variant="outline"
-            className="sign-in-outline hidden rounded-full border-outline-subtle bg-transparent text-foreground hover:bg-transparent sm:inline-flex"
+            className="sign-in-outline hidden rounded-full border-transparent bg-card text-card-foreground hover:bg-card sm:inline-flex"
           >
             Sign in
           </Button>
