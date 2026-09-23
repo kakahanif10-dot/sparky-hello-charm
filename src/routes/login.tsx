@@ -34,7 +34,7 @@ function LoginPage() {
         </div>
       </main>
 
-      <div className="login-light fixed inset-0 z-50 flex items-center justify-center bg-[oklch(0.55_0.08_290/45%)] px-6 py-12 backdrop-blur-md">
+      <div className="login-light fixed inset-0 z-50 flex items-center justify-center px-6 py-12">
         <div className="login-light w-full max-w-[420px]">
           <AuthForm />
         </div>
