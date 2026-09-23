@@ -24,7 +24,6 @@ import {
   PromptInputTools,
 } from '@/components/ai-elements/prompt-input'
 import { Shimmer } from '@/components/ai-elements/shimmer'
-import { SuperintelligensMark } from '@/components/superintelligens-logo'
 import { Button } from '@/components/ui/button'
 import { TEMPLATE_LABELS, type DesignSpec } from '@/lib/design'
 import {
