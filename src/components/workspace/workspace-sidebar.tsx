@@ -22,6 +22,7 @@ import {
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import type { DesignSpec, Template } from '@/lib/design'
+import { SuperintelligensMark } from '@/components/superintelligens-logo'
 import { Button } from '@/components/ui/button'
 
 export type Session = {
