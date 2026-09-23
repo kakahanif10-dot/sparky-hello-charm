@@ -20,7 +20,7 @@ export function AuthForm() {
   }
 
   return (
-    <div className="login-light relative w-full max-w-[420px] rounded-2xl bg-card p-8 shadow-2xl shadow-foreground/10">
+    <div className="login-light relative w-full max-w-[420px] rounded-2xl border border-border bg-card p-8 shadow-2xl shadow-foreground/10">
       <Link
         href="/"
         aria-label="Close"
